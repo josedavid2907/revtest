@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Asturias WIP1</title>
+		<meta name="description" content="cspace demo" />
+		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+		<meta name="author" content="ThemePunch" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- LOAD JQUERY LIBRARY -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+
+                <!-- LOADING FONTS AND ICONS -->
+        <link href="css/cssfonts.css" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+
+		<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+		<!-- REVOLUTION STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="css/settings.css">
+		<!-- REVOLUTION LAYERS STYLES -->
+<style>
+
+
+
+</style>
+<style>.tp-caption.Photography-Subline-2,.Photography-Subline-2{color:rgba(255,255,255,0.35);font-size:20px;line-height:30px;font-weight:300;font-style:normal;font-family:Raleway;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:3px}.tp-caption.Creative-SubTitle,.Creative-SubTitle{color:rgba(205,176,131,1.00);font-size:14px;line-height:14px;font-weight:400;font-style:normal;font-family:Lato;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:2px}.tp-caption.Creative-Title,.Creative-Title{color:rgba(255,255,255,1.00);font-size:70px;line-height:70px;font-weight:400;font-style:normal;font-family:Playfair Display;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px}.tp-caption.Creative-Button,.Creative-Button{color:rgba(205,176,131,1.00);font-size:13px;line-height:13px;font-weight:400;font-style:normal;font-family:Lato;text-decoration:none;background-color:rgba(0,0,0,0);border-color:rgba(205,176,131,0.25);border-style:solid;border-width:1px;border-radius:0px 0px 0px 0px;letter-spacing:2px}.tp-caption.Creative-Button:hover,.Creative-Button:hover{color:rgba(205,176,131,1.00);text-decoration:none;background-color:rgba(0,0,0,0);border-color:rgba(205,176,131,1.00);border-style:solid;border-width:1px;border-radius:0px 0px 0px 0px;cursor:pointer}</style>
+				<style type="text/css">#rev_slider_18_1 .metis .tp-tab-number{color:rgb(255,255,255);  font-size:40px;  line-height:30px;  font-weight:400;  font-family:"Playfair Display";  width:80px; display:inline-block;position:absolute;  text-align:center;  box-sizing:border-box}#rev_slider_18_1 .metis .tp-tab-mask{left:0px;  top:0px;  max-width:80 !important;   line-height:30px;  transition:0.4s padding-left,0.4s left,0.4s max-width}#rev_slider_18_1 .metis:hover .tp-tab-mask{left:15px;  padding-left:0px;  max-width:500px !important}#rev_slider_18_1 .metis .tp-tab-divider{border-right:1px solid transparent;  height:30px;  width:1px;  display:inline-block;  position:absolute;  left:80px;  transition:0.4s all}#rev_slider_18_1 .metis .tp-tab-title{color:rgb(255,255,255);  font-size:20px;  line-height:20px;  font-weight:400;  font-family:"Playfair Display";  position:relative;  line-height:30px;  padding-left:30px;  display:inline-block;  transform:translatex(-100%);  transition:0.4s all}#rev_slider_18_1 .metis .tp-tab-title-mask{position:absolute;  overflow:hidden;  left:80px}#rev_slider_18_1 .metis:hover .tp-tab-title{transform:translatex(0)}#rev_slider_18_1 .metis .tp-tab{opacity:0.15;  transition:0.4s all}#rev_slider_18_1 .metis .tp-tab:hover,#rev_slider_18_1 .metis .tp-tab.selected{opacity:1}#rev_slider_18_1 .metis .tp-tab.selected .tp-tab-divider{border-right:1px solid #cdb083}#rev_slider_18_1 .metis:hover .tp-tab-divider{margin-left:15px}#rev_slider_18_1 .metis.tp-tabs{max-width:80px !important}#rev_slider_18_1 .metis.tp-tabs:before{content:" "; height:100%; width:80px; border-right:1px solid rgba(255,255,255,0.10); left:0px; top:0px; position:absolute; transition:0.4s all; background:rgba(0,0,0,0.15); box-sizing:content-box !important; padding:0px}#rev_slider_18_1 .metis.tp-tabs:hover:before{width:80px; background:rgba(0,0,0,0.25); padding:0px 15px}@media (max-width:499px){#rev_slider_18_1 .metis.tp-tabs:before{background:rgba(0,0,0,0.75)}}</style>
+				
+
+        <!-- ADD-ONS CSS FILES -->
+                    <link  rel="stylesheet" type="text/css"  media="all" href="css/revolution.addon.explodinglayers.css" />
+        
+        <!-- ADD-ONS JS FILES -->
+                    <script type="text/javascript" src="js/revolution.addon.explodinglayers.min.js"></script>
+        
+        <!-- REVOLUTION JS FILES -->
+		<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
+        
+        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+		<script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+
+
+        <script type="text/javascript">function setREVStartSize(e){                                    
+			try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+				if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})                    
+			}catch(d){console.log("Failure at Presize of Slider:"+d)}                        
+		};</script>
+	</head>
+
+	<body style="margin: 0; padding: 0">
+			
+
+<div id="rev_slider_18_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="testasturias1" data-source="gallery" style="background:#1f1d24;padding:0px;">
+<!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
+	<div id="rev_slider_18_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.1">
+<ul>	<!-- SLIDE  -->
+    <li data-index="rs-49" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="assets/100x50_8e126-bg.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Welcome" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+        <img src="assets/8e126-bg.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- BACKGROUND VIDEO LAYER -->
+		<div class="rs-background-video-layer" 
+			data-forcerewind="on" 
+			data-volume="mute" 
+			data-videowidth="100%" 
+			data-videoheight="100%" 
+			data-videomp4="assets/4cafe-video-test1.mp4" 
+            data-videopreload="auto" 
+			data-videoloop="loop" 
+			data-aspectratio="16:9" 
+			data-autoplay="true" 
+			data-autoplayonlyfirsttime="false" 
+></div>
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup" 
+			 id="slide-49-layer-1" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+						data-width="full"
+			data-height="full"
+			data-whitespace="nowrap"
+ 
+            data-type="shape" 
+			data-basealign="slide" 
+			data-responsive_offset="off" 
+			data-responsive="off"
+            data-frames='[{"delay":150,"speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power2.easeInOut"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 5;background-color:rgba(18,12,20,0.75);"> </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" 
+			 id="slide-49-layer-4" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-178','-178','-168','-179']" 
+						data-width="1"
+			data-height="100"
+			data-whitespace="nowrap"
+ 
+            data-type="shape" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 6;background-color:rgba(205,176,131,1);"> </div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption Creative-SubTitle   tp-resizeme rs-parallaxlevel-2" 
+			 id="slide-49-layer-3" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','1','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-91','-91','-94','-95']" 
+						data-fontsize="['14','14','14','12']"
+			data-lineheight="['14','14','14','12']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":2780,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 7; white-space: nowrap; letter-spacing: ;">DISCOVER EXCELLENCE OF LIVING </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption Creative-Title   tp-resizeme rs-parallaxlevel-1" 
+			 id="slide-49-layer-2" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-42','-38','-54','-65']" 
+						data-fontsize="['70','70','50','40']"
+			data-lineheight="['70','70','55','45']"
+			data-width="['none','none','none','320']"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":3690,"speed":2300,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 8; white-space: nowrap; letter-spacing: ;">Asturias<br/> </div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption Creative-Title   tp-resizeme rs-parallaxlevel-1" 
+			 id="slide-49-layer-10" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','-1','4','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['25','29','1','-20']" 
+						data-fontsize="['50','70','50','40']"
+			data-lineheight="['70','70','55','45']"
+			data-width="['none','none','none','320']"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":4570,"speed":2300,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 9; white-space: nowrap; font-size: 50px; letter-spacing: ;">
+Master Plan </div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption Creative-SubTitle   tp-resizeme rs-parallaxlevel-2" 
+			 id="slide-49-layer-9" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['91','91','48','16']" 
+						data-fontsize="['14','14','14','12']"
+			data-lineheight="['14','14','14','12']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":5550,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 10; white-space: nowrap; letter-spacing: ;">PEREIRA, COLOMBIA </div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" 
+			 id="slide-49-layer-5" 
+			 data-x="['center','center','center','center']" data-hoffset="['-1','-1','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['173','173','119','100']" 
+						data-width="1"
+			data-height="100"
+			data-whitespace="nowrap"
+ 
+            data-type="shape" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":1440,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 11;background-color:rgba(205,176,131,1);"> </div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption Creative-Button rev-btn  rs-parallaxlevel-15" 
+			 id="slide-49-layer-6" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['694','611','689','540']" 
+						data-fontweight="['400','500','500','500']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="button" 
+			data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":6380,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;","ease":"Power1.easeIn"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(205,176,131,1);bc:rgba(205,176,131,1);"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[15,15,15,15]"
+            data-paddingright="[50,50,50,50]"
+            data-paddingbottom="[15,15,15,15]"
+            data-paddingleft="[50,50,50,50]"
+
+            style="z-index: 12; white-space: nowrap; letter-spacing: ;border-color:rgba(205,176,131,0.25);border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">IT´S TIME TO LIVE </div>
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption   tp-resizeme rs-parallaxlevel-tobggroup" 
+			 id="slide-49-layer-8" 
+			 data-x="['left','left','left','left']" data-hoffset="['29','29','29','29']" 
+			 data-y="['top','top','top','top']" data-voffset="['9','9','9','9']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="image" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":1580,"speed":1350,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['inherit','inherit','inherit','inherit']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 13;"><img src="assets/dda3b-logo-perezmcgee-3.png" alt="" data-ww="['239px','239px','239px','239px']" data-hh="['86px','86px','86px','86px']" data-no-retina> </div>
+
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption FADE IN   rs-parallaxlevel-tobggroup" 
+			 id="slide-49-layer-11" 
+			 data-x="['left','right','right','right']" data-hoffset="['1030','0','0','0']" 
+			 data-y="['top','bottom','bottom','bottom']" data-voffset="['783','0','0','0']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="image" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":6880,"speed":1640,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['inherit','inherit','inherit','inherit']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 14; line-height: 22px;"><img src="assets/318cf-cspace-big-white.png" alt="" data-ww="['195px','195px','174px','136px']" data-hh="['73px','73px','65px','51px']" data-no-retina> </div>
+
+		<!-- LAYER NR. 11 -->
+		<div class="tp-caption Photography-Subline-2   tp-resizeme rs-parallaxlevel-tobggroup" 
+			 id="slide-49-layer-12" 
+			 data-x="['center','center','center','center']" data-hoffset="['515','422','305','170']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['336','305','403','300']" 
+						data-fontsize="['20','14','14','12']"
+			data-lineheight="['30','30','14','12']"
+			data-fontweight="['300','300','400','400']"
+			data-color="['rgb(255,255,255)','rgb(255,255,255)','rgba(205,176,131,1)','rgba(205,176,131,1)']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":6190,"speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 15; white-space: nowrap; color: #ffffff; letter-spacing: ;">DEVELOPED BY: </div>
+	</li>
+	<!-- SLIDE  -->
+    <li data-index="rs-50" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="assets/100x50_landscape_clouds.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="The project" data-param1="02" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+        <img src="assets/landscape_clouds.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 12 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup" 
+			 id="slide-50-layer-1" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+						data-width="full"
+			data-height="full"
+			data-whitespace="nowrap"
+ 
+            data-type="shape" 
+			data-basealign="slide" 
+			data-responsive_offset="off" 
+			data-responsive="off"
+            data-frames='[{"delay":150,"speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power2.easeInOut"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 6;background-color:rgba(18,12,20,0.75);"> </div>
+
+		<!-- LAYER NR. 13 -->
+		<div class="tp-caption Creative-SubTitle   tp-resizeme rs-parallaxlevel-2" 
+			 id="slide-50-layer-3" 
+			 data-x="['center','center','center','center']" data-hoffset="['-2','-2','0','4']" 
+			 data-y="['middle','middle','top','middle']" data-voffset="['-358','-358','47','-322']" 
+						data-fontsize="['14','14','14','12']"
+			data-lineheight="['14','14','14','12']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":1789.921875,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1010,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 7; white-space: nowrap; letter-spacing: ;">ENJOY EVERYDAY </div>
+
+		<!-- LAYER NR. 14 -->
+		<div class="tp-caption Creative-Title   rs-parallaxlevel-1" 
+			 id="slide-50-layer-2" 
+			 data-x="['center','center','center','center']" data-hoffset="['3','-1','0','1']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-301','-297','-381','-278']" 
+						data-fontsize="['70','70','50','40']"
+			data-lineheight="['70','70','55','45']"
+			data-width="['none','none','none','320']"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":2479.921875,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1010,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 8; white-space: nowrap; letter-spacing: ;">TROPICAL LIVING
+
+ </div>
+
+		<!-- LAYER NR. 15 -->
+		<div class="tp-caption Creative-SubTitle   tp-resizeme rs-parallaxlevel-2" 
+			 id="slide-50-layer-9" 
+			 data-x="['center','center','center','center']" data-hoffset="['-1','-1','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-239','-239','-322','-209']" 
+						data-fontsize="['14','14','14','12']"
+			data-lineheight="['14','14','14','12']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":3709.921875,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1010,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 9; white-space: nowrap; letter-spacing: ;">WITH </div>
+
+		<!-- LAYER NR. 16 -->
+		<div class="tp-caption Creative-Title   tp-resizeme rs-parallaxlevel-1" 
+			 id="slide-50-layer-8" 
+			 data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']" 
+			 data-y="['middle','middle','middle','top']" data-voffset="['-174','-174','-261','200']" 
+						data-fontsize="['70','70','50','40']"
+			data-lineheight="['70','70','55','45']"
+			data-width="['none','none','none','440']"
+			data-height="['none','none','none','47']"
+			data-whitespace="nowrap"
+ 
+            data-type="text" 
+			data-responsive_offset="on" 
+
+            data-frames='[{"delay":4299.84375,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1010,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","ease":"Power3.easeInOut"}]'
+            data-textAlign="['center','center','center','center']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 10; white-space: nowrap; letter-spacing: ;">MAXIMUM QUALITY
+
+ </div>
+
+		<!-- LAYER NR. 17 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" 
+			 id="slide-50-layer-5" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-40','-40','-122','0']" 
+						data-width="1"
+			data-height="100"
+			data-whitespace="nowrap"
+ 
+            data-type="shape" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":4650,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power1.easeIn"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[0,0,0,0]"
+            data-paddingright="[0,0,0,0]"
+            data-paddingbottom="[0,0,0,0]"
+            data-paddingleft="[0,0,0,0]"
+
+            style="z-index: 11;background-color:rgba(205,176,131,1);"> </div>
+
+		<!-- LAYER NR. 18 -->
+		<div class="tp-caption Creative-Button rev-btn  rs-parallaxlevel-15" 
+			 id="slide-50-layer-10" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['509','471','513','445']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/cspace.online\/muses\/asturias\/about","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":5310,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;","ease":"Power1.easeIn"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(205,176,131,1);bc:rgba(205,176,131,1);"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[15,15,15,15]"
+            data-paddingright="[50,50,50,50]"
+            data-paddingbottom="[15,15,15,15]"
+            data-paddingleft="[50,50,50,50]"
+
+            style="z-index: 12; white-space: nowrap; letter-spacing: ;border-color:rgba(205,176,131,0.25);border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">COLOMBIA OPORTUNITY </div>
+
+		<!-- LAYER NR. 19 -->
+		<div class="tp-caption Creative-Button rev-btn  rs-parallaxlevel-15" 
+			 id="slide-50-layer-11" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','-4','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['587','547','605','512']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="button" 
+			data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-51","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":6090,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;","ease":"Power1.easeIn"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(205,176,131,1);bc:rgba(205,176,131,1);"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[15,15,15,15]"
+            data-paddingright="[50,50,50,50]"
+            data-paddingbottom="[15,15,15,15]"
+            data-paddingleft="[50,50,50,50]"
+
+            style="z-index: 13; white-space: nowrap; letter-spacing: ;border-color:rgba(205,176,131,0.25);border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">DISCOVER THE PROJECT </div>
+
+		<!-- LAYER NR. 20 -->
+		<div class="tp-caption Creative-Button rev-btn  rs-parallaxlevel-15" 
+			 id="slide-50-layer-6" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','-5','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['679','619','693','585']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+            data-type="button" 
+			data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-58","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+            data-frames='[{"delay":6780,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;","ease":"Power1.easeIn"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(205,176,131,1);bc:rgba(205,176,131,1);"}]'
+            data-textAlign="['left','left','left','left']"
+            data-paddingtop="[15,15,15,15]"
+            data-paddingright="[50,50,50,50]"
+            data-paddingbottom="[15,15,15,15]"
+            data-paddingleft="[50,50,50,50]"
+
+            style="z-index: 14; white-space: nowrap; letter-spacing: ;border-color:rgba(205,176,131,0.25);border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">INVEST IN ASTURIAS MP </div>
+	</li>
+	<!-- SLIDE  -->
+    <li data-index="rs-51" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="2000"  data-thumb="assets/transparent.png"  data-delay="9660"  data-rotate="0"  data-saveperformance="off"  data-title="Phases" data-param1="03" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+        <img src="assets/transparent.png" data-bgcolor='#8c8c8c' style='background:#8c8c8c' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+		
+		<!-- LAYER MUSE -->
+		<iframe src="https://cspace.online/muses/asturias/general/index.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0;"> Your browser doesn't support iframes</iframe>
+	
+
+
+	<!-- SLIDE  -->
+    <li data-index="rs-58" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="assets/100x50_tp_vid_clouds-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Investors" data-param1="04" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+        <img src="assets/tp_vid_clouds-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+</div><!-- END REVOLUTION SLIDER -->
+		<script type="text/javascript">
+			            var revapi18,
+			tpj;
+(function() {
+    if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();
+
+    function onLoad() {
+        if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+				if(tpj("#rev_slider_18_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_18_1");
+				}else{
+					revapi18 = tpj("#rev_slider_18_1").show().revolution({
+						sliderType:"standard",
+jsFileLocation:"//cspace.online/slider-revolution/revslider/public/assets/js/",
+						sliderLayout:"fullscreen",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+							keyboardNavigation:"off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation:"off",
+                             mouseScrollReverse:"default",
+							onHoverStop:"off",
+							touch:{
+								touchenabled:"on",
+								touchOnDesktop:"off",
+								swipe_threshold: 75,
+								swipe_min_touches: 50,
+								swipe_direction: "horizontal",
+								drag_block_vertical: false
+							}
+							,
+							tabs: {
+								style:"metis",
+								enable:true,
+								width:250,
+								height:40,
+								min_width:0,
+								wrapper_padding:0,
+								wrapper_color:"rgba(255,58,45,0)",
+								tmp:'<div class="tp-tab-wrapper"><div class="tp-tab-number">{{param1}}</div><div class="tp-tab-divider"></div><div class="tp-tab-title-mask"><div class="tp-tab-title">{{title}}</div></div></div>',
+								visibleAmount: 5,
+								hide_onmobile: true,
+								hide_under:800,
+								hide_onleave:false,
+								hide_delay:200,
+								direction:"vertical",
+								span:true,
+								position:"inner",
+								space:0,
+								h_align:"left",
+								v_align:"center",
+								h_offset:0,
+                                v_offset:0
+							}
+						},
+						responsiveLevels:[1240,1024,778,480],
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:[1240,1024,778,480],
+						gridheight:[868,768,960,720],
+						lazyType:"none",
+                        minHeight:"100%",
+						parallax: {
+							type:"3D",
+							origo:"slidercenter",
+							speed:1000,
+                          speedbg:0,
+                          speedls:0,
+							levels:[2,4,6,8,10,12,14,16,45,50,47,48,49,50,0,50],
+							ddd_shadow:"off",
+							ddd_bgfreeze:"on",
+							ddd_overflow:"hidden",
+							ddd_layer_overflow:"visible",
+							ddd_z_correction:100,
+						},
+						spinner:"off",
+						stopLoop:"on",
+						stopAfterLoops:0,
+						stopAtSlide:1,
+						shuffle:"off",
+						autoHeight:"off",
+						fullScreenAutoWidth:"off",
+						fullScreenAlignForce:"off",
+						fullScreenOffsetContainer: "",
+						fullScreenOffset: "",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							nextSlideOnWindowFocus:"off",
+							disableFocusListener:false,
+						}
+					});
+    }; /* END OF revapi call */
+    
+    if(typeof ExplodingLayersAddOn !== "undefined") ExplodingLayersAddOn(tpj, revapi18);
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
+		</script>
+		
+
+	    </body>
+</html>
